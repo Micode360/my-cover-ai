@@ -27,10 +27,10 @@ export default function Hero() {
         </div>
 
         <div className="mt-[2.063rem]">
-          <h2 className="text-[3rem] font-[700] text-green_gradient">
+          <h2 className="hero_h2 text-[3rem] font-[700] text-green_gradient">
             Revolutionizing the insurance experience in Africa
           </h2>
-          <p className="mt-[2.063rem]">
+          <p className="mt-[2.063rem] text-gray-700">
             Our Open Insurance API enables businesses and innovators easily
             embed or build new insurtech solutions to distribute insurance to
             anyone, from anywhere.{" "}

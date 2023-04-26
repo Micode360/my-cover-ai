@@ -4,7 +4,7 @@ import DrawerComp from "./drawer";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 right-0 left-0 bg-white !z-20 flex justify-between shadow-md items-center py-[1.25rem] px-[9.313%]">
+    <header className="fixed top-0 right-0 left-0 bg-white !z-20 flex justify-between b-shadow items-center py-[1.25rem] px-[9.313%]">
       <nav>
         <Image
           className="object-cover rounded min-w-[166px]"

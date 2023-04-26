@@ -20,4 +20,17 @@ body {
   color: rgb(var(--text-color));
   background: #ffffff;
   font-size:14px;
+  color: #1D2939;
+}
+
+.b-shadow {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.hero_h2 {
+  background: linear-gradient(98.86deg, #000000 0%, #47BFA3 94.22%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
