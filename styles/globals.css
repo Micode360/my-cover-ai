@@ -34,3 +34,9 @@ body {
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.blue-glob-gradient {
+  background: radial-gradient(239.22% 377.32% at -32.48% 148.89%, rgba(0, 0, 0, 0.42) 0%, rgba(241, 236, 236, 0.58125) 0.01%, rgba(90, 90, 90, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  backdrop-filter: blur(6.52061px);
+  border-radius: 6.5px
+}
