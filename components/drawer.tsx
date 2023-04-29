@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React, { useRef } from "react"
 import {
     Drawer,
@@ -28,21 +29,22 @@ export default function DrawerComp() {
           onClose={onClose}
           finalFocusRef={btnRef}
         >
-          <DrawerOverlay />
-          <DrawerContent>
-            <DrawerCloseButton />
-            <DrawerHeader>Create your account</DrawerHeader>
+          <DrawerOverlay
+            bgColor="#eee"
+            zIndex="20"
+          />
+          <DrawerContent
+           zIndex="21"
+           borderRadius="8px"
+           w="93%"
+           bgColor="#ffffff"
+           >
+            <DrawerCloseButton zIndex="21"/>
+            
   
             <DrawerBody>
-              <Input placeholder='Type here...' />
+              <Link href="/" className="text-black">Home</Link>
             </DrawerBody>
-  
-            <DrawerFooter>
-              <Button variant='outline' mr={3} onClick={onClose}>
-                Cancel
-              </Button>
-              <Button colorScheme='blue'>Save</Button>
-            </DrawerFooter>
           </DrawerContent>
         </Drawer>
       </>

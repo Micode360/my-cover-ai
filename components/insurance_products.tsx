@@ -7,7 +7,7 @@ export default function InsuranceProducts() {
 
       <div className="text-center mb-[4.75rem]">
         <h2 className="text-[1.875rem] font-[700] mb-[0.313rem]">
-          Exciting insurance products for all sectors
+          Exciting insurance products for all <span className="hightlight relative">sectors</span>
         </h2>
         <p className="text-[1.25rem]">
           Distribute tailor made products with access to multiple insurance
@@ -111,7 +111,7 @@ export default function InsuranceProducts() {
       <div className="grid grid-cols-2 py-[7.625rem] pl-[9.313%]">
             
             <div>
-              <h2 className="text-[1.875rem] text-gray-800 font-[700] mb-[4.063rem]">Manage all insurance activities from a unified platform.</h2>
+              <h2 className="text-[1.875rem] text-gray-800 font-[700] mb-[4.063rem]">Manage all insurance activities from a unified <span className="hightlight relative">platform</span>.</h2>
               
               <div className="grid grid-cols-2 gap-[1.563rem]">
                 
@@ -153,9 +153,9 @@ export default function InsuranceProducts() {
                         width={20}
                         height={20}
                     />
-                    Designed for anyone
+                    Claims handling
                   </div>
-                  <p className="text-[1.25rem] font-[500] text-gray-600 ml-[0.5rem]">Sell to customers directly from your dashboard.</p>
+                  <p className="text-[1.25rem] font-[500] text-gray-600 ml-[0.5rem]">Reliably automate claims in real-time.</p>
                 </div>
 
 
@@ -168,9 +168,9 @@ export default function InsuranceProducts() {
                         width={20}
                         height={20}
                     />
-                    Designed for anyone
+                    Real-time analytics
                   </div>
-                  <p className="text-[1.25rem] font-[500] text-gray-600 ml-[0.5rem]">Sell to customers directly from your dashboard.</p>
+                  <p className="text-[1.25rem] font-[500] text-gray-600 ml-[0.5rem]">Essential insights needed to grow your business.</p>
                 </div>
 
               </div>

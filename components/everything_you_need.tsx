@@ -6,14 +6,14 @@ export default function EverythingYouNeedToKnow() {
     <section className="grid grid-cols-2 gap-2 bg-deep_blue px-[9.313%] py-[9.375rem] relative overflow-hidden">
       <div>
         <div>
-          <h2 className="text-[1.875rem] text-green font-[700] mb-[1.625rem]">
+<h2 className="text-[1.875rem] text-green font-[700] mb-[1.625rem]">
             Everything you need to start building
           </h2>
           <p className="text-white text-[1.25rem] font-[500] mb-[2.625rem]">
             We understand the crux of good developer experience while
             interfacing with an API. Our developer-friendly guide will get you
             started in no time.
-          </p>
+          </p>          
           <div className="flex mb-[1.625rem]">
             <Link
               className="w-[7.813rem] text-center py-[0.75rem] bg-green rounded text-white mr-[2.063rem]"
@@ -90,7 +90,6 @@ export default function EverythingYouNeedToKnow() {
         <div className="bg-[#1D2939] py-[1.25rem] px-[1.125rem] mx-2 rounded-xl">
           <div
             className="block font-[monospace] blue-glob-gradient px-[1.563rem] py-[2.25rem] text-[1rem] text-white outline-none"
-            contentEditable={true}
           >
             <div>
               <span className="#B4FDFE">mycover.</span>{" "}
