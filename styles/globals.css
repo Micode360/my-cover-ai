@@ -6,22 +6,15 @@
 
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --text-color: #1D2939;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color:#1D2939;
-  }
-}
 
 body {
   color: rgb(var(--text-color));
   background: #ffffff;
-  font-size:14px;
-  font-family:'space grotesk';
+  font-size: 14px;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif !important;
   color: #1D2939;
 }
 
@@ -31,14 +24,15 @@ body {
 
 .hero_h2 {
   background: linear-gradient(98.86deg, #000000 0%, #47BFA3 94.22%);
--webkit-background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .blue-glob-gradient {
-  background: radial-gradient(239.22% 377.32% at -32.48% 148.89%, rgba(0, 0, 0, 0.42) 0%, rgba(241, 236, 236, 0.58125) 0.01%, rgba(90, 90, 90, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(239.22% 377.32% at -32.48% 148.89%, rgba(0, 0, 0, 0.42) 0%, rgba(241, 236, 236, 0.58125) 0.01%, rgba(90, 90, 90, 0) 100%);
   backdrop-filter: blur(6.52061px);
   border-radius: 6.5px
 }
@@ -48,7 +42,47 @@ body {
   background: rgba(82, 165, 255, 0.4);
   position: absolute;
   bottom: 1px;
-  right:0;
-  width:90%;
+  right: 0;
+  width: 90%;
   height: 12px;
 }
+
+.mOpen {
+  animation: slideInRight 1s both;
+  -webkit-animation: slideInRight 1s both;
+}
+
+.mClose {
+  transform: translateX(500%);
+  animation-name: slideOutRight 1s both;
+  -webkit-animation-name: slideOutRight 1s both;
+}
+
+
+
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
