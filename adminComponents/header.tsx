@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header({ nav, setNav }: any) {
   return (
-    <section className="flex justify-between items-center py-[1.125rem] px-[2.188rem] ">
+    <section className="flex justify-between items-center py-[1.125rem] px-[2.188rem]">
       <div className="text-[1.5rem] font-[700]">
         {nav === "claim" ? (
           "Claims"

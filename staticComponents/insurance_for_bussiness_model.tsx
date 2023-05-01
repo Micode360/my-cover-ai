@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function InsuranceForBussinessModel() {
   return (
-    <div className="grid grid-cols-2 py-[7.625rem] pl-[9.313%]">
+    <div className="grid grid-cols-2 py-[7.625rem] pl-[9.313%] overflow-hidden">
       <div>
         <h2 className="text-[1.875rem] text-gray-800 font-[700] mb-[1.438rem]">
           Insurance for any business <span className="hightlight relative">model</span>
@@ -78,22 +78,15 @@ export default function InsuranceForBussinessModel() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center ml-[8.875rem] shadow-2xl relative overflow-hidden">
+      <div className="flex justify-center items-center ml-[8.875rem] relative">
         <Image
-          className="object-cover rounded mr-0 md:mt-[-4px] w-[220.98px] z-10"
-          src="/img/checkout.svg"
+          className="object-cover rounded mr-0 md:mt-[-4px] scale-[3] z-10"
+          src="/img/checkout2.svg"
           alt="img"
           width={220.98}
           height={483.54}
         />
-
-        <Image
-          className="object-cover rounded absolute bottom-[-4rem] left-[-40px] min-w-[136px] rotate-[2deg] scale-[0.65] opacity-[.61]"
-          src="/img/checkout_chevron.svg"
-          alt="img"
-          width={232.47}
-          height={292.02}
-        />
+       
       </div>
     </div>
   );

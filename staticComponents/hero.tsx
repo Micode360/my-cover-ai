@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="overflow-hidden grid grid-cols-2 gap-0 mt-[5.5rem] pb-[6.594rem] relative">
-      <div className="ml-[8.313rem] pt-[6.594rem]">
+      <div className="lg:ml-[8.313rem] ml-[9.313%] pt-[6.594rem]">
         <div className="flex mb-[4rem]">
-          <a className="bg-green rounded-lg text-white mr-4 px-2 w-[4rem] h-[1.5rem] flex justify-center items-center" href="#">
+          <a className="bg-green rounded-lg text-white mr-4 px-2 flex justify-center items-center" href="#">
             Just In
           </a>
           Mycover.ai just launched there AI Inspection APP
