@@ -59,7 +59,7 @@ export default function DrawerComp() {
           </Link>
         </div>
         <span
-          className="bg-white rounded-xl text-[1.2rem] absolute top-4 right-4 cursor-pointer py-2 px-4 text-green shadow-md font-[700] "
+          className="bg-white rounded-xl text-[1.2rem] absolute top-4 right-4 cursor-pointer py-2 px-4 text-green shadow-md font-[700]"
           onClick={() => setMenu("mClose")}
         >
           X

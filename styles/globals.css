@@ -58,6 +58,10 @@ body {
   -webkit-animation-name: slideOutRight 1s both;
 }
 
+.mTranparent {
+  background: rgba(50, 59, 75, 0.5);
+  backdrop-filter: blur(2px);
+}
 
 
 @-webkit-keyframes slideInRight {

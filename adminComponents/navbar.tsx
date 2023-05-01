@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <section className="bg-[#070707] text-white py-[1.438rem] pl-[2.188rem] relative overflow-hidden">
-      <nav className="mb-[3.23rem]">
+      <nav className="mb-[3.23rem] cursor-pointer">
         <Image
-          className="object-cover rounded min-w-[166px]"
+          className="object-cover rounded min-w-[122x]"
           src="/img/admin/logo_white.svg"
           alt="img"
           width={166}
@@ -13,7 +13,7 @@ export default function Navbar() {
         />
       </nav>
 
-      <nav className="flex items-center mb-[2.031rem]">
+      <nav className="flex items-center mb-[2.031rem] cursor-pointer">
         <Image
           className="object-cover rounded min-w-[16px] mr-[0.5rem]"
           src="/img/admin/globe.svg"
@@ -26,7 +26,7 @@ export default function Navbar() {
 
       <h2 className="text-[#98A2B3] mb-[1rem]">DASHBOARD</h2>
 
-      <nav className="flex items-center mb-[2.031rem]">
+      <nav className="flex items-center mb-[2.031rem] cursor-pointer">
         <Image
           className="object-cover rounded min-w-[16px] mr-[0.5rem]"
           src="/img/admin/grid.svg"
@@ -39,7 +39,7 @@ export default function Navbar() {
 
       <h2 className="text-[#98A2B3] mb-[1rem]">Admin</h2>
 
-      <nav className="flex items-center mb-[0.938rem]">
+      <nav className="flex items-center mb-[0.938rem] cursor-pointer">
         <Image
           className="object-cover rounded min-w-[16px] mr-[0.5rem]"
           src="/img/admin/sales.svg"
@@ -50,7 +50,7 @@ export default function Navbar() {
         Sales
       </nav>
 
-      <nav className="flex items-center mb-[0.938rem]">
+      <nav className="flex items-center mb-[0.938rem] cursor-pointer">
         <Image
           className="object-cover rounded min-w-[16px] mr-[0.5rem]"
           src="/img/admin/policies.svg"
@@ -61,7 +61,7 @@ export default function Navbar() {
         Policies
       </nav>
 
-      <nav className="flex items-center mb-[0.938rem]">
+      <nav className="flex items-center mb-[0.938rem] cursor-pointer">
         <svg
           width="16"
           height="14"
@@ -80,7 +80,7 @@ export default function Navbar() {
         Products
       </nav>
 
-      <nav className="flex items-center mb-[0.938rem]">
+      <nav className="flex items-center mb-[0.938rem] cursor-pointer">
         <svg
           width="16"
           height="18"
@@ -99,7 +99,7 @@ export default function Navbar() {
         Customer
       </nav>
 
-      <nav className="flex items-center mb-[0.938rem]">
+      <nav className="flex items-center mb-[0.938rem] cursor-pointer">
         <svg
           width="19"
           height="19"
@@ -140,7 +140,7 @@ export default function Navbar() {
         Users
       </nav>
 
-      <nav className="flex items-center mb-[2.688rem]">
+      <nav className="flex items-center mb-[2.688rem] text-green cursor-pointer">
         <svg
           width="18"
           height="19"
@@ -177,7 +177,7 @@ export default function Navbar() {
         Claim
       </nav>
 
-      <h2 className="text-[#98A2B3] mb-[1rem]">Transaction</h2>
+      <h2 className="text-[#98A2B3] mb-[1rem] cursor-pointer">Transaction</h2>
 
       <nav className="flex items-center mb-[0.938rem]">
         <svg
@@ -207,7 +207,7 @@ export default function Navbar() {
         Wallet
       </nav>
 
-      <nav className="flex items-center mb-[2.688rem]">
+      <nav className="flex items-center mb-[2.688rem] cursor-pointer">
         <svg
           width="20"
           height="20"
@@ -228,7 +228,7 @@ export default function Navbar() {
 
       <h2 className="text-[#98A2B3] mb-[1rem]">Other</h2>
 
-      <nav className="flex items-center mb-[0.938rem]">
+      <nav className="flex items-center mb-[0.938rem] cursor-pointer">
         <svg
           width="19"
           height="20"
@@ -247,7 +247,7 @@ export default function Navbar() {
         Provider
       </nav>
 
-      <nav className="flex items-center mb-[2.688rem]">
+      <nav className="flex items-center mb-[2.688rem] cursor-pointer">
         <svg
           width="19"
           height="20"
@@ -268,7 +268,7 @@ export default function Navbar() {
 
       <h2 className="text-[#98A2B3] mb-[1rem]">Service</h2>
 
-      <nav className="flex items-center mb-[0.938rem]">
+      <nav className="flex items-center mb-[0.938rem] cursor-pointer">
         <svg
           width="18"
           height="18"
@@ -292,7 +292,7 @@ export default function Navbar() {
         Inspection
       </nav>
 
-      <nav className="flex items-center mb-[3.188rem]">
+      <nav className="flex items-center mb-[3.188rem] cursor-pointer">
         <svg
           width="18"
           height="19"
@@ -329,7 +329,7 @@ export default function Navbar() {
         Claim
       </nav>
 
-      <nav className="flex items-center mb-[0.938rem]">
+      <nav className="flex items-center mb-[0.938rem] cursor-pointer">
         <svg
           width="20"
           height="21"
